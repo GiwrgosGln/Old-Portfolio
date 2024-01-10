@@ -11,9 +11,8 @@ export default function About() {
 
       {/* Right side with about me text */}
       <div className="w-screen mt-10 md:mt-0 md:w-2/5 mx-auto text-justify px-5">
-        <h2 className="text-xl text-blue-500 font-bold">About Me</h2>
-        <h2 className="text-3xl text-textColor font-bold mb-4">
-          Software Developer
+        <h2 className="text-3xl inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-700 font-bold mb-4">
+          About Me
         </h2>
         <p className="text-textColor text-xl sm:text-xl md:text-xl xl:text-2xl">
           I'm a Junior Front-End Developer with a bachelor's degree in Computer
@@ -26,13 +25,15 @@ export default function About() {
         </p>
 
         {/* Button to download resume as PDF */}
-        <a
-          href={resumePdf}
-          download="Georgios_Glinias_CV.pdf"
-          className="bg-blue-500 text-white px-4 py-2 mt-4 inline-block rounded-md hover:bg-blue-700 transition duration-300"
-        >
-          Download Resume
-        </a>
+        <div className="flex justify-center py-5">
+          <a
+            href={resumePdf}
+            download="Georgios_Glinias_CV.pdf"
+            className="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 text-white px-4 py-2 rounded-3xl"
+          >
+            Download CV
+          </a>
+        </div>
       </div>
     </div>
   );

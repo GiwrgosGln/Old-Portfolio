@@ -14,7 +14,7 @@ export default function Hero() {
     <div className="h-auto flex flex-col lg:mt-32 items-center bg-backgroundWhite">
       <div className="flex flex-col items-center lg:flex-row">
         <div className="px-5 mt-5 flex flex-col">
-          <h1 className="text-textColor text-3xl md:text-6xl font-bold w-full md:w-2/3 leading-tight">
+          <h1 className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-700 text-3xl md:text-6xl font-bold w-full md:w-2/3 leading-tight">
             Front-End React Developer
           </h1>
           <p className="text-textColor text-xl text-justify sm:text-xl md:text-2xl md:w-2/3 mt-4">

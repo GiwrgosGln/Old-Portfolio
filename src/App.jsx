@@ -16,9 +16,9 @@ export default function App() {
       <div id="About" className="bg-white">
         <About />
       </div>
-      <section id="Projects">
+      <div id="Projects">
         <Projects />
-      </section>
+      </div>
       <div id="Contact">
         <Contact />
       </div>
