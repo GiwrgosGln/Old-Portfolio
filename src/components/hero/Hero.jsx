@@ -26,7 +26,7 @@ export default function Hero() {
           <img
             src={avatar}
             alt="Logo"
-            className="h-52 w-52 mt-10 sm:h-72 sm:w-72 md:w-96 md:h-96 md:mt-0 rounded-full"
+            className="h-80 w-80 mt-10 sm:h-72 sm:w-72 md:w-96 md:h-96 md:mt-0 rounded-full"
           />
         </div>
       </div>
