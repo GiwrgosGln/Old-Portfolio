@@ -19,10 +19,10 @@ const Navbar = () => {
         </motion.span>
         <div className="social">
           <a href="https://www.linkedin.com/in/giwrgos-g-b74448250/">
-            <FaLinkedin color="#0077B5" size="30" />
+            <FaLinkedin color="#0077B5" size="40" />
           </a>
           <a href="https://github.com/GiwrgosGln">
-            <FaGithubSquare color="black" size="30" />
+            <FaGithubSquare color="black" size="40" />
           </a>
         </div>
       </div>
