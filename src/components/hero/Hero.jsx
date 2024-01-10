@@ -42,13 +42,13 @@ export default function Hero() {
               src={javascript}
               alt="JavaScript"
               title="JavaScript"
-              className="h-16 rounded-2xl"
+              className="h-16 w-16 rounded-2xl"
             />
             <img
               src={typescript}
               alt="TypeScript"
               title="TypeScript"
-              className="h-16 rounded-2xl"
+              className="h-16 w-16 rounded-2xl"
             />
           </div>
           <div className="flex flex-row gap-1">
@@ -56,13 +56,13 @@ export default function Hero() {
               src={react}
               alt="React"
               title="React"
-              className="h-16 rounded-2xl"
+              className="h-16 w-16 rounded-2xl"
             />
             <img
               src={tailwindcss}
               alt="Tailwind CSS"
               title="Tailwind CSS"
-              className="h-16 rounded-2xl"
+              className="h-16 w-16 rounded-2xl"
             />
           </div>
           <div className="flex flex-row gap-1">
@@ -70,19 +70,19 @@ export default function Hero() {
               src={vite}
               alt="Vite"
               title="Vite"
-              className="h-16 rounded-2xl"
+              className="h-16 w-16 rounded-2xl"
             />
             <img
               src={next}
               alt="Next"
               title="Next"
-              className="h-16 rounded-2xl"
+              className="h-16 w-16 rounded-2xl"
             />
             <img
               src={expo}
               alt="React Native - Expo"
               title="React Native - Expo"
-              className="h-16 rounded-2xl"
+              className="h-16 w-16 rounded-2xl"
             />
           </div>
           <div className="flex flex-row gap-1">
@@ -90,13 +90,13 @@ export default function Hero() {
               src={redux}
               alt="Redux"
               title="Redux"
-              className="h-16 rounded-2xl"
+              className="h-16 w-16 rounded-2xl"
             />
             <img
               src={mongodb}
               alt="MongoDB"
               title="MongoDB"
-              className="h-16 rounded-2xl"
+              className="h-16 w-16 rounded-2xl"
             />
           </div>
         </div>
