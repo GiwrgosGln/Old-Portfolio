@@ -14,7 +14,7 @@
     left: 0;
     bottom: 0;
     width: 400px;
-    background: rgb(59 130 246);
+    background: linear-gradient(to right, #3b82f6, #1d4ed8);
 
     @include mobile {
       width: 100%;
