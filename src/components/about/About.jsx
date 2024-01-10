@@ -11,9 +11,11 @@ export default function About() {
 
       {/* Right side with about me text */}
       <div className="w-screen mt-10 md:mt-0 md:w-2/5 mx-auto text-justify px-5">
-        <h2 className="text-3xl inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-700 font-bold mb-4">
-          About Me
-        </h2>
+        <div className="flex justify-center">
+          <h2 className="text-3xl inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-700 font-bold mb-4">
+            About Me
+          </h2>
+        </div>
         <p className="text-textColor text-xl sm:text-xl md:text-xl xl:text-2xl">
           I'm a Junior Front-End Developer with a bachelor's degree in Computer
           Engineering from the Technological Educational Institute of Kavala.

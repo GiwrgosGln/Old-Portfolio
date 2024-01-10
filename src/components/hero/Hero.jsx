@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="flex flex-col items-center lg:flex-row">
         <div className="px-5 mt-5 flex flex-col">
           <h1 className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-700 text-3xl md:text-6xl font-bold w-full md:w-2/3 leading-tight">
-            Front-End React Developer
+            Front-End Developer
           </h1>
           <p className="text-textColor text-xl text-justify sm:text-xl md:text-2xl md:w-2/3 mt-4">
             Hi, I'm George Glinias. A passionate Frontend React Developer based
@@ -32,7 +32,7 @@ export default function Hero() {
       </div>
       <div className="flex flex-col mt-20 md:flex-row md:mt-20 2xl:mt-60 2xl:pb-10 items-center gap-10">
         <div>
-          <h1 className="text-textColor text-3xl md:text-4xl font-bold">
+          <h1 className="text-3xl inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-700 font-bold">
             Tech Stack
           </h1>
         </div>
