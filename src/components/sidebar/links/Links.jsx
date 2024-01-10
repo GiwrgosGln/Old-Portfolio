@@ -35,8 +35,13 @@ const scrollToSection = (sectionId) => {
   }
 };
 
-const Links = () => {
+const Links = ({ setOpen }) => {
   const items = ["Home", "About", "Projects", "Contact"];
+
+  const handleClick = (item) => {
+    scrollToSection(item);
+    setOpen(false); // Close the sidebar when a link is clicked
+  };
 
   return (
     <motion.div className="links" variants={variants}>
@@ -47,7 +52,7 @@ const Links = () => {
           variants={itemVariants}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          onClick={() => scrollToSection(item)}
+          onClick={() => handleClick(item)}
         >
           {item}
         </motion.a>
