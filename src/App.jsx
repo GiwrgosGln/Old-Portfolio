@@ -11,10 +11,10 @@ import Sidebar from "./components/sidebar/Sidebar";
 export default function App() {
   return (
     <div>
-      <section id="Home">
+      <div id="Home">
         <Navbar />
         <Hero />
-      </section>
+      </div>
       <section id="About">
         <About />
       </section>
