@@ -13,9 +13,9 @@ export default function App() {
         <Navbar />
         <Hero />
       </div>
-      <section id="About">
+      <div id="About" className="bg-white">
         <About />
-      </section>
+      </div>
       <section id="Projects">
         <Projects />
       </section>
