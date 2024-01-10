@@ -30,7 +30,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="flex flex-col mt-5 md:flex-row md:mt-20 2xl:mt-60 2xl:pb-10 items-center gap-10">
+      <div className="flex flex-col mt-20 md:flex-row md:mt-20 2xl:mt-60 2xl:pb-10 items-center gap-10">
         <div>
           <h1 className="text-textColor text-3xl md:text-4xl font-bold">
             Tech Stack
