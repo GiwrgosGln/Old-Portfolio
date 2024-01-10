@@ -10,7 +10,7 @@ export default function About() {
       </div>
 
       {/* Right side with about me text */}
-      <div className="w-4/5 mt-10 md:mt-0 md:w-2/5 mx-auto pl-4">
+      <div className="w-screen mt-10 md:mt-0 md:w-2/5 mx-auto text-justify px-5">
         <h2 className="text-xl text-blue-500 font-bold">About Me</h2>
         <h2 className="text-3xl text-textColor font-bold mb-4">
           Software Developer

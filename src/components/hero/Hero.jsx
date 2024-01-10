@@ -13,11 +13,11 @@ export default function Hero() {
   return (
     <div className="h-auto flex flex-col lg:mt-32 items-center bg-backgroundWhite">
       <div className="flex flex-col items-center lg:flex-row">
-        <div className="px-8 mt-5 flex flex-col">
+        <div className="px-5 mt-5 flex flex-col">
           <h1 className="text-textColor text-3xl md:text-6xl font-bold w-full md:w-2/3 leading-tight">
             Front-End React Developer
           </h1>
-          <p className="text-textColor text-xl sm:text-xl md:text-2xl md:w-2/3 mt-4">
+          <p className="text-textColor text-xl text-justify sm:text-xl md:text-2xl md:w-2/3 mt-4">
             Hi, I'm George Glinias. A passionate Frontend React Developer based
             in Alexandroupoli, Greece. 📍
           </p>
