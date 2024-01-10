@@ -11,7 +11,7 @@ import mongodb from "../../assets/tech-stack/MongoDB.webp";
 
 export default function Hero() {
   return (
-    <div className="h-screen flex flex-col lg:mt-32 items-center bg-backgroundWhite">
+    <div className="h-auto flex flex-col lg:mt-32 items-center bg-backgroundWhite">
       <div className="flex flex-col items-center lg:flex-row">
         <div className="px-10 mt-5 flex flex-col">
           <h1 className="text-textColor text-3xl md:text-6xl font-bold w-full md:w-2/3 leading-tight">
