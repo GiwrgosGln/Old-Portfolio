@@ -3,7 +3,7 @@ import resumePdf from "../../assets/resume.pdf";
 
 export default function About() {
   return (
-    <div className="bg-backgroundWhite mx-auto flex flex-col md:flex-row items-center pt-60 md:py-20">
+    <div className="bg-backgroundWhite mx-auto flex flex-col md:flex-row items-center pt-72 md:py-20">
       {/* Left side with image */}
       <div className="w-4/5 md:w-2/5 mx-auto relative shadow-2xl shadow-gc1">
         <img src={about} alt="About Me" className="w-full h-auto rounded-lg" />
