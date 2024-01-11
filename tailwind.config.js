@@ -4,9 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        navbarWhite: "#ffffff",
-        backgroundWhite: "#f9f9f9",
-        textColor: "#343539",
+        navbarWhite: "#1f2833",
+        backgroundWhite: "#0b0c10",
+        textColor: "#ffffff",
+        gc1: "#6F2232",
+        gc2: "#950740",
+        gc3: "#C3073F",
       },
     },
   },
