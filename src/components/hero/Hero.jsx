@@ -30,7 +30,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="flex flex-col mt-20 md:flex-row md:mt-20 2xl:mt-60 2xl:pb-10 items-center gap-10 relative">
+      <div className="flex flex-col mt-32 md:flex-row md:mt-20 2xl:mt-60 2xl:pb-10 items-center gap-10 relative">
         <div>
           <h1 className="text-3xl text-white">Tech Stack</h1>
         </div>
