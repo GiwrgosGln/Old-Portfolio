@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import { Helmet } from "react-helmet-async";
 
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
@@ -103,13 +102,6 @@ const App = () => {
           }}
         />
       )}
-
-      <Helmet>
-        <meta
-          name="description"
-          content="Hello, I'm a junior software engineer working with React!"
-        />
-      </Helmet>
 
       <div>
         <div id="Home">
