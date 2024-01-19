@@ -19,10 +19,13 @@ const Navbar = () => {
             Glns.dev
           </motion.span>
           <div className="social">
-            <a href="https://www.linkedin.com/in/giwrgos-g-b74448250/">
+            <a
+              href="https://www.linkedin.com/in/giwrgos-g-b74448250/"
+              aria-label="LinkedIn profile"
+            >
               <FaLinkedin color="#0077B5" size="40" />
             </a>
-            <a href="https://github.com/GiwrgosGln">
+            <a href="https://github.com/GiwrgosGln" aria-label="GitHub profile">
               <FaGithub color="white" size="40" />
             </a>
           </div>

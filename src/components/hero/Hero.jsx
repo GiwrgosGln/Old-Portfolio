@@ -18,7 +18,7 @@ export default function Hero() {
             Front-End Developer
           </h1>
           <p className="text-textColor text-xl text-justify sm:text-xl md:text-2xl md:w-2/3 mt-4">
-            Hi, I'm George Glinias. A passionate Frontend React Developer based
+            Hi, I'm Giwrgos Glinias. A passionate Frontend React Developer based
             in Alexandroupoli, Greece. 📍
           </p>
         </div>
