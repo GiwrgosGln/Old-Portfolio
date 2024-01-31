@@ -111,12 +111,12 @@ const App = () => {
         <div id="About" className="bg-white">
           <About />
         </div>
-        {/* <div id="Projects">
+        <div id="Projects">
           <Projects />
         </div>
         <div id="Contact">
           <Contact />
-        </div> */}
+        </div>
         <div>
           <Footer />
         </div>
