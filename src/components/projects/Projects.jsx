@@ -10,7 +10,11 @@ export default function Projects() {
       </h1>
       <div className="flex flex-col mt-40 relative lg:flex-row gap-10">
         <div className="h-auto w-80 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
-          <img src={annecy} className=" h-52 w-full rounded-xl p-1" />
+          <img
+            src={annecy}
+            className=" h-52 w-full rounded-xl p-1"
+            alt="Annecy"
+          />
           <h1 className="text-center text-3xl">Annecy</h1>
           <p className="text-center text-xl px-2">
             Developed an Airbnb website based in Alexandroupoli.
@@ -23,7 +27,11 @@ export default function Projects() {
           </a>
         </div>
         <div className="h-auto w-80 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
-          <img src={expofit} className=" h-52 w-full rounded-xl p-1" />
+          <img
+            src={expofit}
+            className=" h-52 w-full rounded-xl p-1"
+            alt="ExpoFit"
+          />
           <h1 className="text-center text-3xl">ExpoFit</h1>
           <p className="text-center text-xl px-2">
             Crafted a React Native app for easy workout tracking.
@@ -36,7 +44,11 @@ export default function Projects() {
           </a>
         </div>
         <div className="h-auto w-80 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
-          <img src={goapi} className=" h-52 w-full rounded-xl p-1" />
+          <img
+            src={goapi}
+            className=" h-52 w-full rounded-xl p-1"
+            alt="GinFitAPI"
+          />
           <h1 className="text-center text-3xl">GinFitAPI</h1>
           <p className="text-center text-xl px-2">
             Developed a Gin API seamlessly with MongoDB.
