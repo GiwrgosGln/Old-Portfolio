@@ -25,7 +25,7 @@ export default function About() {
         </p>
 
         {/* Button to download resume as PDF */}
-        <div className="flex justify-center py-5">
+        {/* <div className="flex justify-center py-5">
           <a
             href={resumePdf}
             download="Georgios_Glinias_CV.pdf"
@@ -33,7 +33,7 @@ export default function About() {
           >
             Download CV
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

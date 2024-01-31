@@ -5,7 +5,7 @@ import goapi from "../../assets/goapi.webp";
 export default function Projects() {
   return (
     <div className="h-2/3 flex flex-col items-center align-center bg-backgroundWhite">
-      <h1 className="text-3xl inline-block text-transparent bg-clip-text bg-gradient-to-r from-gc3 via-gc3 to-gc1 font-bold mt-10">
+      <h1 className="text-4xl inline-block text-transparent bg-clip-text bg-gradient-to-r from-gc3 via-gc3 to-gc1 font-bold mt-10">
         Projects
       </h1>
       <div className="flex flex-col mt-40 relative lg:flex-row gap-10">
@@ -84,7 +84,7 @@ export default function Projects() {
             </li>
           </ul>
           <p className="text-center text-xl px-2">
-            Developed a Gin API seamlessly with MongoDB.
+            Developed a Golang API with MongoDB.
           </p>
 
           <a
