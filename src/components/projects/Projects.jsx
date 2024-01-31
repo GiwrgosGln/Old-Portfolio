@@ -16,12 +16,24 @@ export default function Projects() {
             alt="Annecy"
           />
           <h1 className="text-center text-3xl">Annecy</h1>
+          <ul className="flex flex-wrap gap-5 justify-center">
+            <li className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 py-2 rounded-md text-center">
+              HTML
+            </li>
+            <li className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-md text-center">
+              CSS
+            </li>
+            <li className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-white px-4 py-2 rounded-md text-center">
+              JavaScript
+            </li>
+          </ul>
           <p className="text-center text-xl px-2">
             Developed an Airbnb website based in Alexandroupoli.
           </p>
+
           <a
             href="https://annecy-apartment.com/"
-            className="bg-gradient-to-r from-slate-800 to-slate-900 text-white px-4 py-2 rounded-3xl w-20 text-center"
+            className="bg-gradient-to-r from-slate-800 to-slate-900 text-white px-4 py-2 rounded-3xl w-20 text-center font-sem"
           >
             Demo
           </a>
@@ -33,9 +45,18 @@ export default function Projects() {
             alt="ExpoFit"
           />
           <h1 className="text-center text-3xl">ExpoFit</h1>
+          <ul className="flex flex-wrap gap-5 justify-center">
+            <li className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-md text-center">
+              React Native
+            </li>
+            <li className="bg-gradient-to-r from-slate-800 to-slate-900 text-white px-4 py-2 rounded-md text-center">
+              Expo
+            </li>
+          </ul>
           <p className="text-center text-xl px-2">
             Crafted a React Native app for easy workout tracking.
           </p>
+
           <a
             href="https://github.com/GiwrgosGln/ExpoFit"
             className="bg-gradient-to-r from-slate-800 to-slate-900 text-white px-4 py-2 rounded-3xl w-20 text-center"
@@ -50,9 +71,22 @@ export default function Projects() {
             alt="GinFitAPI"
           />
           <h1 className="text-center text-3xl">GinFitAPI</h1>
+
+          <ul className="flex flex-wrap gap-5 justify-center">
+            <li className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white px-4 py-2 rounded-md text-center">
+              Golang
+            </li>
+            <li className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-2 rounded-md text-center">
+              MongoDB
+            </li>
+            <li className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-2 py-2 rounded-md text-center">
+              Docker
+            </li>
+          </ul>
           <p className="text-center text-xl px-2">
             Developed a Gin API seamlessly with MongoDB.
           </p>
+
           <a
             href="https://github.com/GiwrgosGln/GinFitAPI"
             className="bg-gradient-to-r from-slate-800 to-slate-900 text-white px-4 py-2 rounded-3xl w-20 text-center"
