@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div style={{ position: "relative", zIndex: 1 }}>
-      {init && (
+      {/* {init && (
         <Particles
           id="tsparticles"
           particlesLoaded={particlesLoaded}
@@ -102,7 +102,7 @@ const App = () => {
           }}
           className="hidden md:block"
         />
-      )}
+      )} */}
 
       <div>
         <div id="Home">
