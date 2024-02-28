@@ -26,8 +26,10 @@ export default function Hero() {
         <div>
           <img
             src={avatar}
-            alt="Logo"
-            className="h-80 w-80 mt-10 sm:h-72 sm:w-72 md:w-96 md:h-96 md:mt-0 rounded-full shadow-2xl shadow-gc1 "
+            alt="Giwrgos Glinias"
+            className="mt-10 md:mt-0 rounded-full shadow-2xl shadow-gc1 "
+            height={320}
+            width={320}
           />
         </div>
       </div>

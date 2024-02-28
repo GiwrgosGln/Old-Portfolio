@@ -9,10 +9,11 @@ export default function Projects() {
         Projects
       </h1>
       <div className="flex flex-col mt-5 md:mt-10 relative lg:flex-row gap-10">
-        <div className="h-auto w-80 lg:w-96 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
+        <div className="h-auto w-80 lg:w-80 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
           <img
             src={annecy}
-            className=" h-52 w-full rounded-xl p-1"
+            className="rounded-xl p-1"
+            style={{ height: "200px", width: "400px" }}
             alt="Annecy"
           />
           <h1 className="text-center text-3xl">Annecy</h1>
@@ -41,7 +42,8 @@ export default function Projects() {
         <div className="h-auto w-80 lg:w-96 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
           <img
             src={expofit}
-            className=" h-52 w-full rounded-xl p-1"
+            className="rounded-xl p-1"
+            style={{ height: "200px", width: "400px" }}
             alt="ExpoFit"
           />
           <h1 className="text-center text-3xl">ExpoFit</h1>
@@ -67,7 +69,8 @@ export default function Projects() {
         <div className="h-auto w-80 lg:w-96 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
           <img
             src={goapi}
-            className=" h-52 w-full rounded-xl p-1"
+            className="rounded-xl p-1"
+            style={{ height: "200px", width: "400px" }}
             alt="GinFitAPI"
           />
           <h1 className="text-center text-3xl">GinFitAPI</h1>
