@@ -5,11 +5,11 @@ import goapi from "../../assets/goapi.webp";
 export default function Projects() {
   return (
     <div className="h-2/3 flex flex-col items-center align-center bg-backgroundWhite">
-      <h1 className="text-4xl inline-block text-transparent bg-clip-text bg-gradient-to-r from-gc3 via-gc3 to-gc1 font-bold mt-10">
+      <h1 className="text-4xl inline-block text-transparent bg-clip-text bg-gradient-to-r from-gc3 via-gc3 to-gc1 font-bold mt-40">
         Projects
       </h1>
-      <div className="flex flex-col mt-40 relative lg:flex-row gap-10">
-        <div className="h-auto w-80 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
+      <div className="flex flex-col mt-5 md:mt-10 relative lg:flex-row gap-10">
+        <div className="h-auto w-80 lg:w-96 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
           <img
             src={annecy}
             className=" h-52 w-full rounded-xl p-1"
@@ -38,7 +38,7 @@ export default function Projects() {
             Demo
           </a>
         </div>
-        <div className="h-auto w-80 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
+        <div className="h-auto w-80 lg:w-96 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
           <img
             src={expofit}
             className=" h-52 w-full rounded-xl p-1"
@@ -64,7 +64,7 @@ export default function Projects() {
             GitHub
           </a>
         </div>
-        <div className="h-auto w-80 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
+        <div className="h-auto w-80 lg:w-96 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
           <img
             src={goapi}
             className=" h-52 w-full rounded-xl p-1"

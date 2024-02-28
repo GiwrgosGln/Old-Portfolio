@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer";
 
 const App = () => {
   const [init, setInit] = useState(false);
+  const [showParticles, setShowParticles] = useState(true);
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -18,7 +19,23 @@ const App = () => {
     }).then(() => {
       setInit(true);
     });
+
+    // Add event listener to check screen width on resize
+    window.addEventListener("resize", handleResize);
+
+    // Initial check for screen width
+    handleResize();
+
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
+
+  const handleResize = () => {
+    // Update showParticles state based on screen width
+    setShowParticles(window.innerWidth >= 768);
+  };
 
   const particlesLoaded = (container) => {
     console.log(container);
@@ -99,6 +116,7 @@ const App = () => {
             zIndex: 0,
             width: "100%",
             height: "100%",
+            display: "none",
           }}
         />
       )}
