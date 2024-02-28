@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <div className="h-screen flex flex-col justify-center items-center bg-backgroundWhite">
       <div className="flex flex-col items-center lg:flex-row relative">
-        <div className="px-5 mt-5 flex flex-col">
+        <div className="px-5 mt-10 flex flex-col">
           <h1 className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-gc3 via-gc3 to-gc1 text-3xl md:text-6xl font-bold w-full md:w-2/3 leading-tight">
             Front-End Developer
           </h1>
