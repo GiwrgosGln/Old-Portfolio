@@ -11,31 +11,20 @@ import Footer from "./components/footer/Footer";
 
 const App = () => {
   const [init, setInit] = useState(false);
-  const [showParticles, setShowParticles] = useState(true);
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
+      // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+      // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+      // starting from v2 you can add only the features you need reducing the bundle size
+      //await loadAll(engine);
+      //await loadFull(engine);
       await loadSlim(engine);
+      //await loadBasic(engine);
     }).then(() => {
       setInit(true);
     });
-
-    // Add event listener to check screen width on resize
-    window.addEventListener("resize", handleResize);
-
-    // Initial check for screen width
-    handleResize();
-
-    // Cleanup event listener on component unmount
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
   }, []);
-
-  const handleResize = () => {
-    // Update showParticles state based on screen width
-    setShowParticles(window.innerWidth >= 768);
-  };
 
   const particlesLoaded = (container) => {
     console.log(container);
@@ -111,13 +100,7 @@ const App = () => {
             },
             detectRetina: true,
           }}
-          style={{
-            position: "absolute",
-            zIndex: 0,
-            width: "100%",
-            height: "100%",
-            display: "none",
-          }}
+          className="hidden md:block"
         />
       )}
 

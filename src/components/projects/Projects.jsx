@@ -39,7 +39,7 @@ export default function Projects() {
             Demo
           </a>
         </div>
-        <div className="h-auto w-80 lg:w-96 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
+        <div className="h-auto w-80 lg:w-80 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
           <img
             src={expofit}
             className="rounded-xl p-1"
@@ -66,7 +66,7 @@ export default function Projects() {
             GitHub
           </a>
         </div>
-        <div className="h-auto w-80 lg:w-96 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
+        <div className="h-auto w-80 lg:w-80 bg-gc1 flex flex-col rounded-xl items-center gap-5 p-2 pb-5">
           <img
             src={goapi}
             className="rounded-xl p-1"
