@@ -8,6 +8,8 @@ import next from "../../assets/tech-stack/Next.webp";
 import expo from "../../assets/tech-stack/Expo.webp";
 import redux from "../../assets/tech-stack/Redux.webp";
 import mongodb from "../../assets/tech-stack/MongoDB.webp";
+import C_Sharp from "../../assets/tech-stack/C_Sharp.png";
+import Net from "../../assets/tech-stack/NET.png";
 import Marquee from "react-fast-marquee";
 
 export default function Hero() {
@@ -53,6 +55,18 @@ export default function Hero() {
             src={typescript}
             alt="TypeScript"
             title="TypeScript"
+            className="h-16 w-16 rounded-2xl mr-5"
+          />
+          <img
+            src={C_Sharp}
+            alt="C#"
+            title="C#"
+            className="h-16 w-16 rounded-2xl mr-5"
+          />
+          <img
+            src={Net}
+            alt=".NET"
+            title=".NET"
             className="h-16 w-16 rounded-2xl mr-5"
           />
           <img
